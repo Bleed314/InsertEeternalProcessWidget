@@ -34,7 +34,7 @@ WidgetSetUpMainWindow::WidgetSetUpMainWindow(QWidget* parent)
 	WidgetFlashScreen::GetInstance()->SetLableText(QString::fromLocal8Bit("正在获取窗口信息..."));
 	WidgetFlashScreen::GetInstance()->SetProgressValue(10);
 
-	QString xmlPtah = QString::fromLocal8Bit("%1%2").arg(QApplication::applicationDirPath()).arg("/config/widget.xml");
+	QString xmlPtah = "./../config/widget.xml";
 	QList<MyWidget*> allWgt = getNeedWgtByReadXml(xmlPtah);
 	//网页窗口优先加载
 	std::sort(allWgt.begin(), allWgt.end(), [](const MyWidget* a, const MyWidget* b) 

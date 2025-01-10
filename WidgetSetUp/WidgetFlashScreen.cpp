@@ -16,7 +16,7 @@ WidgetFlashScreen::WidgetFlashScreen(QWidget* pParent)
 	:QWidget(pParent)
 {
 	setWindowFlags(Qt::FramelessWindowHint);
-	QString strPath = QString::fromLocal8Bit("%1%2").arg(QApplication::applicationDirPath()).arg("/icon/flashScreen.png");
+	QString strPath = ("./../icon/flashScreen.png");
 	m_pixmap.load(strPath);
 	m_nValue = 0;
 
