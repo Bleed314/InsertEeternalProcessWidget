@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WidgetSetUpMainWindowClass</class>
+ <widget class="QMainWindow" name="WidgetSetUpMainWindowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>746</width>
+    <height>716</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WidgetSetUpMainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <action name="actioner">
+   <property name="text">
+    <string>2D</string>
+   </property>
+  </action>
+  <action name="action3D">
+   <property name="text">
+    <string>3D</string>
+   </property>
+  </action>
+  <action name="action2D_3D">
+   <property name="text">
+    <string>2D&amp;3D</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="WidgetSetUpMainWindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>

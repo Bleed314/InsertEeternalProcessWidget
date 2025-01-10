@@ -1,0 +1,6 @@
+#ifndef COMMONSTRCUT_H
+#define COMMONSTRCUT_H
+
+
+
+#endif  //UNDERLYINGWGTGET_H

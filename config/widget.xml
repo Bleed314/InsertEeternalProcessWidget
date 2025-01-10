@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DockWidget>
+<dockWidget>
+   <dockStyle>2D_Map</dockStyle> 
+   <url>D:/work_code/Map2D_Viewer/Bin/Map2D_Viewer.exe</url>
+   <pos>0-0-0.5-1</pos> 
+   <name>二维</name>
+   <wgtName>2D_map</wgtName>
+   <style>noFloating</style>
+ </dockWidget>
+ <dockWidget>
+    <dockStyle>3D_Map</dockStyle>
+    <url>D:/Qt works/example/example.exe</url>
+    <pos>0.5-0-0.5-1</pos>
+	<name>三维</name>
+	<wgtName>FluentUI - FluentUI Example</wgtName>
+    <style>noFloating</style>
+ </dockWidget>
+ <dockWidget>
+    <dockStyle>WebPage</dockStyle>
+    <url>https://www.baidu.com</url>
+    <pos>0-0-0.4-0.4</pos>
+	<name>速度</name>
+    <style>isFloating</style>
+ </dockWidget>
+ <dockWidget>
+    <dockStyle>WebPage</dockStyle>
+    <url>https://www.baidu.com</url>
+    <pos>0.5-0.5-0.4-0.4</pos>
+	<name>轨迹</name>
+    <style>isFloating</style>
+ </dockWidget>
+</DockWidget>
